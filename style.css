@@ -8,6 +8,9 @@
 }
 
 .display {
+    font-family: "Orbitron", sans-serif;
+    font-size: 40px;
+    text-align: right;
     height: 80px;
     width: 80%;
     background-color: rgb(175 176 171);
@@ -15,6 +18,7 @@
     border-radius: 2px;
     margin: 40px auto;
 }
+
 
 .buttons {
     display: flex;
@@ -33,16 +37,21 @@
     width: 85px;
     border: 1px solid black;
     border-radius: 5px;
+    font-family: "Orbitron", sans-serif;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     color:rgb(19 67 114);
     box-shadow: 7px 11px 25px -13px rgba(0,0,0,0.75);
+    transition: transform 100ms;
 }
 
 .num:hover, .op:hover {
     cursor: pointer;
+    transform:scale(1.1);
 }
+
+
 
 .op {
     background-color: brown;
