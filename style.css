@@ -24,13 +24,17 @@ body {
     margin: 40px auto;
     overflow: hidden;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .prev-operand {
+    height: 25px;
     font-size: 20px;
 }
 
 .current-operand {
+    height: 49px;
     font-size: 40px;
 }
 
