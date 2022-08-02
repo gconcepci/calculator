@@ -12,29 +12,34 @@
 </head>
 <body>
     <div class="container">
-        <div class="display"></div>
+        <div class="display">
+            <div class="prev-operand"></div>
+            <div class="current-operand"></div>
+        </div>
         <div class="buttons">
-                <div data-num="7" class="num">7</div>
-                <div data-num="8" class="num">8</div>
-                <div data-num="9" class="num">9</div>
-                <div data-op="divide" class="op divide">&#247;</div>
+                <div data-num class="num">7</div>
+                <div data-num class="num">8</div>
+                <div data-num class="num">9</div>
+                <div data-op class="op divide">&#247;</div>
 
-                <div data-num="4" class="num">4</div>
-                <div data-num="5" class="num">5</div>
-                <div data-num="6" class="num">6</div>
-                <div data-op="multiply" class="op multiply">&#215;</div>
+                <div data-num class="num">4</div>
+                <div data-num class="num">5</div>
+                <div data-num class="num">6</div>
+                <div data-op class="op multiply">&#215;</div>
 
-                <div data-num="1" class="num">1</div>
-                <div data-num="2" class="num">2</div>
-                <div data-num="3" class="num">3</div>
-                <div data-op="add" class="op add">+</div>
+                <div data-num class="num">1</div>
+                <div data-num class="num">2</div>
+                <div data-num class="num">3</div>
+                <div data-op class="op add">+</div>
 
-                <div data-op="clear" class="op clear">C</div>
-                <div data-num="0" class="num">0</div>
+                <div data-delete class="op clear">DEL</div>
+                <div data-num class="num">0</div>
                 <div class="num">.</div>
-                <div data-op="subtract" class="op subtract">-</div>
-
+                <div data-op class="op subtract">-</div>
+                
+                <div data-all="clear" class="op all-clear">AC</div>
                 <div data-op="operate" class="op equals">=</div>
+                
         </div>
     </div>
     <script src="script.js"></script>

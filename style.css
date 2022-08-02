@@ -1,4 +1,9 @@
+body {
+    background: linear-gradient(to right, #b15762, #8066cd);
+}
+
 .container {
+    margin: 200px auto;
     height: 700px;
     width: 600px;
     background-color: rgb(19 67 114);
@@ -11,19 +16,28 @@
     font-family: "Orbitron", sans-serif;
     font-size: 40px;
     text-align: right;
-    height: 80px;
+    height: 100px;
     width: 80%;
     background-color: rgb(175 176 171);
     border: 10px solid rgb(92 94 91);
     border-radius: 2px;
     margin: 40px auto;
     overflow: hidden;
+    padding: 10px;
+}
+
+.prev-operand {
+    font-size: 20px;
+}
+
+.current-operand {
+    font-size: 40px;
 }
 
 
 .buttons {
     display: flex;
-    margin: 40px auto;
+    margin: 20px auto;
     width: 80%;
     border: 2px solid black;
     border-radius: 3px;
@@ -59,9 +73,10 @@
 }
 
 .op.equals {
-    width: 500px;
+    width: 370px;
+    margin-left: 0px;
 }
 
-.op.equals, .op.clear{
+.op.clear, .op.all-clear{
     margin-left: 0;
 }
